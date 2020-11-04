@@ -56,6 +56,10 @@ module.exports = {
                 }
             },
             {
+                test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+                use: ['file-loader']
+            },
+            {
                 test: /\.m?js$/,
                 exclude: /node_modules/,
                 use: {
