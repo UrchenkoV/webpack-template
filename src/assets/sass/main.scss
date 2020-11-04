@@ -1,0 +1,36 @@
+//@import '../css/main.css';
+
+$font-size: 1rem;
+$font-color: lch(53 105 40);
+
+html {
+    font-size: $font-size;
+    color: $font-color;
+}
+body {
+    background: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+::placeholder {
+  color: gray;
+}
+@media screen and (max-width: 640px) {
+    .header { color: #cdcdcd; background: blue; }
+  }
+  @media screen and (min-width: 760px) {
+    .desktop-first { color: #cdcdcd }
+  }
+  @media screen and (max-width: 640px) {
+    .main { color: #cdcdcd }
+  }
+  @media screen and (min-width: 1280px) {
+    .desktop-first { color: #cdcdcd }
+  }
+  @media screen and (max-width: 760px) {
+    .footer { color: #cdcdcd }
+  }
+  @media screen and (max-width: 640px) {
+    .footer { color: #cdcdcd }
+  }
